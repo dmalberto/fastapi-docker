@@ -31,3 +31,22 @@ docker ps
 ```
 docker exec -it IDPROCESSO /bin/sh
 ```
+
+[Referência](https://medium.com/xebia-engineering/learning-docker-by-building-a-python-application-e81f1486d067#)
+
+### Adicionar ao Docker Hub
+
+- Adicionar tag
+
+```
+docker tag python-fastapi dmalberto/python-fastapi
+
+```
+
+- Push para o server
+
+```
+docker push dmalberto/python-fastapi
+```
+
+[Referência](https://jtemporal.com/subindo-imagens-docker-pro-dockerhub/)
